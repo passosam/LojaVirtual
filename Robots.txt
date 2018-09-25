@@ -1,0 +1,5 @@
+#Gerado em Locaweb - www.locaweb.com.br 
+#Hospedagem de Sites e Serviços de Internet 
+
+User-Agent: *
+Allow: /

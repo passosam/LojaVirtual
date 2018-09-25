@@ -1,0 +1,203 @@
+/* 
+Author: Start Bootstrap - http://startbootstrap.com
+'SB Admin' HTML Template by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* ATTN: This is mobile first CSS - to update 786px and up screen width use the media query near the bottom of the document! */
+
+/* Global Styles */
+
+body {
+  margin-top: 50px;
+}
+
+#msg{
+    background:#FC0;
+    opacity:0.9;
+    width:100%;
+    font-size:18px;
+    color:#000;
+    padding:10px;
+    position:absolute;
+    left:0px;
+    top:-45px;
+    z-index:999;
+}
+
+Mensagem{
+    font-size: 10px;
+    color: red;
+    font-weight: 900;
+}
+
+#wrapper {
+  padding-left: 0;
+}
+
+#page-wrapper {
+  width: 100%;
+  padding: 5px 15px;
+}
+
+/* Nav Messages */
+
+.messages-dropdown .dropdown-menu .message-preview .avatar,
+.messages-dropdown .dropdown-menu .message-preview .name,
+.messages-dropdown .dropdown-menu .message-preview .message,
+.messages-dropdown .dropdown-menu .message-preview .time {
+  display: block;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .avatar {
+  float: left;
+  margin-right: 15px;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .name {
+  font-weight: bold;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .message {
+  font-size: 12px;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .time {
+  font-size: 12px;
+}
+
+
+/* Nav Announcements */
+
+.announcement-heading {
+  font-size: 50px;
+  margin: 0;
+}
+
+.announcement-text {
+  margin: 0;
+}
+
+/* Table Headers */
+
+table.tablesorter thead {
+  cursor: pointer;
+}
+
+table.tablesorter thead tr th:hover {
+  background-color: #f5f5f5;
+}
+
+/* Flot Chart Containers */
+
+.flot-chart {
+  display: block;
+  height: 400px;
+}
+
+.flot-chart-content {
+  width: 100%;
+  height: 100%;
+}
+
+/* Edit Below to Customize Widths > 768px */
+@media (min-width:768px) {
+
+  /* Wrappers */
+
+  #wrapper {
+	padding-left: 225px;
+  }
+
+  #page-wrapper {
+	padding: 15px 25px;
+  }
+
+  /* Side Nav */
+
+  .side-nav {
+	margin-left: -225px;
+	left: 225px;
+	width: 225px;
+	position: fixed;
+	top: 50px;
+	height: 100%;
+	border-radius: 0;
+	border: none;
+	background-color: #B5B5B5;
+	overflow-y: auto;
+  }
+
+  /* Bootstrap Default Overrides - Customized Dropdowns for the Side Nav */
+
+  .side-nav>li.dropdown>ul.dropdown-menu {
+	position: relative;
+	min-width: 225px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a {
+	color: #ffffff;
+	padding: 15px 15px 15px 25px;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a:hover,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a.active,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a:focus {
+	color: #fff;
+	background-color: #7570b3;
+  }
+
+  .side-nav>li>a {
+	width: 225px;
+  }
+
+  .navbar-inverse .navbar-nav>li>a:hover,
+  .navbar-inverse .navbar-nav>li>a:focus {
+	background-color: #7570b3;
+  }
+
+  /* Nav Messages */
+
+  .messages-dropdown .dropdown-menu {
+	min-width: 300px;
+  }
+
+  .messages-dropdown .dropdown-menu li a {
+	white-space: normal;
+  }
+  
+  ul{list-style:none; padding-left:10px;}
+
+
+
+.abas li{float:left; border:1px solid #ccc; border-bottom:0; margin-right:10px; padding:10px; border-top-left-radius:5px; border-top-right-radius:5px; -moz-border-radius-topleft:5px; -moz-border-radius-topright:5px; -webkit-border-radius-topleft:5px; -webkit-border-radius-topright:5px; }
+
+
+
+.abas li:hover{box-shadow:0 -2px 3px #DFDFDF; -moz-box-shadow:0 -2px 3px #DFDFDF; -webkit-box-shadow:0 -2px 3px #DFDFDF; font-weight:bold; border-color:#c0c0c0;}
+
+
+
+.ativo{background:#ccc; border-color:#333;}
+
+
+
+.ativo a{color:#fff; font-weight:bold; text-shadow:0 0 5px #999;}
+
+
+
+#noticia{position:relative; width:880px; height:auto; padding:10px; clear:both; border:1px solid #ccc; -moz-box-shadow:0 -1px 3px #ccc;}
+
+
+
+#noticia div{display:none;}
+}
